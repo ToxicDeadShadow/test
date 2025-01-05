@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Cookie Clicker</h1>
+        <button id="cookieButton">Click me!</button>
+        <p>Cookies: <span id="cookieCount">0</span></p>
+        
+        <button id="upgradeButton">Upgrades</button>
+        <div id="upgradeMenu" class="dropdown"></div>
+        
+        <button id="addonButton">Add-ons</button>
+        <div id="addonMenu" class="dropdown"></div>
+
+        <button id="moneyButton">Get Money ($10 for 1000 cookies)</button>
+        <p>Money: $<span id="moneyCount">0</span></p>
+    </div>
+
+    <button id="adminLoginButton" class="admin-button">Admin Login</button>
+
+    <div id="modMenu" class="dropdown mod-menu">
+        <h3>Mod Menu</h3>
+        <input type="number" id="setCookies" placeholder="Set Cookies">
+        <button id="setCookiesButton">Set Cookies</button>
+        <input type="number" id="setMoney" placeholder="Set Money">
+        <button id="setMoneyButton">Set Money</button>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

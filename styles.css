@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+#game {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.dropdown {
+    display: none;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.dropdown.dark-mode {
+    background-color: #333;
+    border-color: #444;
+}
+
+.admin-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.mod-menu {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
